@@ -1,0 +1,7 @@
+para correr sass es con el siguiente comendo desde el cmd ruta principal del prouecto 
+
+
+sass --watch sass/main.scss css/styles.css
+
+
+

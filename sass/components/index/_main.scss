@@ -1,0 +1,31 @@
+@use '../../base/variables' as *;
+@use '../../base/mixins' as mixins;
+
+main {
+    padding: 20px;
+}
+
+.article {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+
+    .article-title {
+        color: $primary-color;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .article-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .article-text {
+        line-height: 1.5;
+    }
+}
